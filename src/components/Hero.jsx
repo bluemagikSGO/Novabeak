@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
 
         {/* Right: Image */}
-        <div className="lg:w-1/2 mb-12 lg:mb-0  flex justify-center">
+        <div className="lg:w-1/2 mb-6 lg:mb-0  flex justify-center">
           <img
             src={bitcoin}
             alt="Bitcoin phone"
