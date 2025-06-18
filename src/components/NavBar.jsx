@@ -27,7 +27,7 @@ const NavBar = () => {
       </div>
       {/* mobile menu */}
       {Menuon && (
-        <ul className="md:hidden absolute bg-[#f5faff] w-full flex flex-col text-3xl font-semibold gap-3 pl-7 border-b-1 pb-5 mt-7">
+        <ul className="md:hidden absolute bg-[#f5faff] w-full  flex flex-col text-3xl font-semibold gap-3 pl-7 border-b-1 pb-5 mt-7">
           <li className="hover:text-blue-500">About Us</li>
           <li className="hover:text-blue-500">Staff card</li>
           <li>
