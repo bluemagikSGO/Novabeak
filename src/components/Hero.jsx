@@ -1,5 +1,5 @@
 import React from "react";
-import bitcoin from "../assets/bitcoin.png"; // Replace with your own image
+import bitcoin from "../assets/bitcoin.png";
 
 const Hero = () => {
   return (
@@ -20,7 +20,11 @@ const Hero = () => {
         </div>
 
         {/* Right: Image */}
-        <div className="lg:w-1/2 mb-6 lg:mb-0  flex justify-center">
+        <div
+          className="lg:w-1/2 mb-6 lg:mb-0  flex justify-center"
+          data-aos="zoom-in"
+          data-aos-duration="3000"
+        >
           <img
             src={bitcoin}
             alt="Bitcoin phone"
