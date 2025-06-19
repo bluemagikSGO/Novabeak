@@ -7,7 +7,7 @@ const AboutUs = () => (
   <div className="min-h-screen flex flex-col">
     <NavBar />
     <main className="flex-grow">
-      <section className="py-16 text-center px-4">
+      <section className="py-10 text-center px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
             About Nova Beak
