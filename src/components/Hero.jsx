@@ -14,8 +14,8 @@ const Hero = () => {
           <p className="text-xl text-gray-600 mb-6">
             Invest in the world's digital future securely.
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition-all">
-            Get Started
+          <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg shadow transition-all cursor-pointer">
+            <a href="https://my.novabeak.com/">Get Started</a>
           </button>
         </div>
 
