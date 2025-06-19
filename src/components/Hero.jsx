@@ -23,7 +23,7 @@ const Hero = () => {
         <div
           className="lg:w-1/2 mb-6 lg:mb-0  flex justify-center"
           data-aos="zoom-in"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
         >
           <img
             src={bitcoin}
