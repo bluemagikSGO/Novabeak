@@ -33,12 +33,12 @@ const NavBar = () => {
       </div>
       {/* mobile menu */}
       {Menuon && (
-        <ul className="md:hidden absolute bg-[#f5faff] w-full  flex flex-col text-3xl font-semibold gap-3 pl-7 border-b-1 pb-5 mt-7 z-50">
+        <ul className="md:hidden absolute bg-[#f5faff] w-full  flex flex-col text-3xl font-semibold gap-8 pl-7 border-b-1 pb-5 mt-7 z-50">
           <Link to="/about">
             <li className="hover:text-blue-500">About Us</li>
           </Link>
           <li className="hover:text-blue-500">Staff card</li>
-          <li>
+          <li className="flex justify-center">
             <button className="ring-1 p-2 rounded-3xl bg-blue-500 text-white hover:bg-white hover:ring-1 hover:text-black cursor-pointer">
               <a href="https://my.novabeak.com/">Click to Invest</a>
             </button>
