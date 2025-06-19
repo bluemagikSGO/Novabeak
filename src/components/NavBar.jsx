@@ -16,7 +16,7 @@ const NavBar = () => {
           <li className="hover:text-blue-500">About Us</li>
           <li className="hover:text-blue-500">Staff card</li>
           <li>
-            <button className="ring-1 p-3 rounded-xl bg-blue-500 text-white hover:bg-white hover:ring-1 hover:text-black cursor-pointer">
+            <button className="ring-1 p-3 rounded-3xl bg-blue-500 text-white hover:bg-white hover:ring-1 hover:text-black cursor-pointer">
               <a href="https://my.novabeak.com/">Click to Invest</a>
             </button>
           </li>
@@ -31,7 +31,7 @@ const NavBar = () => {
           <li className="hover:text-blue-500">About Us</li>
           <li className="hover:text-blue-500">Staff card</li>
           <li>
-            <button className="ring-1 p-3 rounded-xl bg-blue-500 text-white hover:bg-white hover:ring-1 hover:text-black cursor-pointer">
+            <button className="ring-1 p-2 rounded-3xl bg-blue-500 text-white hover:bg-white hover:ring-1 hover:text-black cursor-pointer">
               <a href="https://my.novabeak.com/">Click to Invest</a>
             </button>
           </li>
