@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [Menuon, setMenuon] = useState(false);
@@ -13,7 +14,10 @@ const NavBar = () => {
       <div className="flex justify-between p-7 items-center text-xl font-semibold shadow-lg">
         <img src={logo} alt="logo" />
         <ul className="hidden md:flex space-x-10 items-center">
-          <li className="hover:text-blue-500">About Us</li>
+          <Link to="/about">
+            <li className="hover:text-blue-500">About Us</li>
+          </Link>
+
           <li className="hover:text-blue-500">Staff card</li>
           <li>
             <button className="ring-1 p-3 rounded-3xl bg-blue-500 text-white hover:bg-white hover:ring-1 hover:text-black cursor-pointer">
@@ -28,7 +32,9 @@ const NavBar = () => {
       {/* mobile menu */}
       {Menuon && (
         <ul className="md:hidden absolute bg-[#f5faff] w-full  flex flex-col text-3xl font-semibold gap-3 pl-7 border-b-1 pb-5 mt-7">
-          <li className="hover:text-blue-500">About Us</li>
+          <Link to="/about">
+            <li className="hover:text-blue-500">About Us</li>
+          </Link>
           <li className="hover:text-blue-500">Staff card</li>
           <li>
             <button className="ring-1 p-2 rounded-3xl bg-blue-500 text-white hover:bg-white hover:ring-1 hover:text-black cursor-pointer">
