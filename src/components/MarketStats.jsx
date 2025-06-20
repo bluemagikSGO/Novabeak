@@ -10,9 +10,9 @@ const MarketStats = () => {
       url: "https://api.coingecko.com/api/v3/coins/markets",
       params: {
         vs_currency: "usd",
-        ids: "bitcoin,ethereum,cardano,solana",
+        ids: "bitcoin,ethereum,cardano,solana,doge,fantom,trump,tether",
         order: "market_cap_desc",
-        per_page: 4,
+        per_page: 8,
         page: 1,
         sparkline: false,
         x_cg_demo_api_key: "CG-e1ayxFRMm6ggXPnFofLqGmm4",
